@@ -1,0 +1,670 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+  
+    
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/all.css">
+</head>
+<body>
+  
+
+        <!-- header -->
+
+        <nav class="navbar navbar-expand-lg  " style="position: relative;height: 70px;" >
+            <div class="container-fluid  bg-light " style="position: fixed;height: 70px; z-index: 1;" >
+            <a class="navbar-brand" href="#"><img src="css/images/client-1.png" alt="logo" style="width: 130px;height: 75px;"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Link</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle border rounded border-dark" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    courses
+                    </a>
+                    <ul class="dropdown-menu  " style="background-color: rgba(42, 24, 202, 0.452);">
+                    <li><a class="dropdown-item" href="#">web development</a></li>
+                     <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="#">Digital Marketing</a></li>
+                   
+                    <li><a class="dropdown-item" href="#">Grighice Design</a></li>
+                    <li><a class="dropdown-item" href="#">Ui\Ux</a></li>
+                    <li><a class="dropdown-item" href="#">IA</a></li>
+                    <li><a class="dropdown-item" href="#">More</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">about</a>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                
+                <button class="btn btn-outline-dark" type="submit">Search</button>
+                <!-- Button trigger modal -->
+        <button type="button" class="btn btn-primary w-50 mx-3" data-bs-toggle="modal" data-bs-target="#staticBackdrop"  >
+            log in
+        </button>
+        
+       
+                </form>
+            </div>
+            </div>
+        </nav>
+        <div class="icons-sec-9">
+          <a href="#" class="icons-9"><i class="fab fa-facebook-square"></i></a>
+          <a href="#" class="icons-9"><i class="fab fa-twitter-square"></i></a>
+          <a href="#" class="icons-9"><i class="fab fa-linkedin"></i></a>
+          <a href="#" class="icons-9"> <i class="fab fa-instagram"></i></a>
+
+
+      </div>
+       <!-- Modal -->
+       <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true" >
+        <div class="modal-dialog"   >
+         
+        <div class="modal-content"  >
+            <div class="modal-header bg-info">
+            <h1 class="modal-title fs-5 " id="staticBackdropLabel">log</h1>
+            <button type="button" class="btn-close " data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body" >
+            <div class="form-floating mb-3">
+                <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                <label for="floatingInput">Email address</label>
+            </div>
+            <div class="form-floating">
+                <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+                <label for="floatingPassword">Password</label>
+            </div>
+            </div>
+            <div class="form-check form-switch mx-3 " >
+                <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckChecked" checked>
+                <label class="form-check-label text-info" for="flexSwitchCheckChecked">Remmember me</label>
+              </div>
+            <div class="modal-footer"  >
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-primary">log in</button>
+            </div>
+        </div>
+        </div>
+    </div>
+       
+          <!-- section-1 -->
+         
+<div id="carouselExampleCaptions" class="carousel slide ">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner  " style="height: 580px; ">
+      
+      <div class="carousel-item active">
+        
+        <img src="css/images/photo-1.jpg" class="d-block  w-100 "  style="height: 580px; "alt="...">
+        <div class="carousel-caption d-none d-md-block" style="background-color: rgba(0,0, 0, 0.5);">
+          <h5>Web development</h5>
+          <p>Learn HowTo code-Learn the basics of languages like java Script and python.</p>
+          <button type="button" class="btn btn-outline-primary">Book Now</button>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="css/images/photo_4.jpg" class="d-block w-100" style="height: 580px;" alt="...">
+        <div class="carousel-caption d-none d-md-block" style="background-color: rgba(0,0, 0, 0.5);" >
+          <h5>Graphic Design</h5>
+          <p>Learn what goes into creating the many pictures and logos</p>
+          <button type="button" class="btn btn-outline-primary">Book Now</button>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="css/images/photo_3.jpg" class="d-block  w-100" style="height: 580px; " alt="...">
+        <div class="carousel-caption d-none d-md-block" style="background-color: rgba(0,0, 0, 0.5);" >
+          <h5>Digital Marketing</h5>
+          <p>Learn Digital Marketing skills and creat compelling content.  </p>
+          <button type="button" class="btn btn-outline-primary">Book Now</button>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+
+  </div>
+  <div class="card w-100 mb-3 "style="background-color: rgba(0,0, 0, 0.2);" >
+    <div class="card-body">
+      <h5 class="card-title">roles</h5>
+      <p class="card-text">    
+        Informational roles involve the receiving and sending of information—whether as a spokesperson, a mentor, a trainer, or an administrator. A top manager is a voice of the organization and has to be aware that even personal opinions will reflect (for better or worse)
+        </p>
+      <a href="#" class="btn btn-primary">Show More</a>
+    </div>
+  </div>
+  </div>
+ 
+   <!-- section-2 -->
+
+   <div class="col  text-center fs-1" style="background-color:rgba(16, 1, 22, 0.5) ;">
+    <div class="p-3">types of courses </div>
+   </div>
+
+  <div class="accordion accordion-flush" id="accordionFlushExample" >
+    <div class="accordion-item shadow p-3 mb-5 bg-body-tertiary rounded" >
+      <h2 class="accordion-header  ">
+        <button class="accordion-button collapsed fs-3 " type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+          web development
+        </button>
+      </h2>
+      <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+        <div class="accordion-body"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Error quos possimus soluta, voluptatum voluptas ipsa saepe cumque nulla itaque minima quo quasi eius cum, quis iure! Sunt vel repellat veritatis, voluptas dignissimos sed laboriosam nulla ea sit aut quis doloribus modi, illo nemo? Porro itaque, et quod eveniet earum dolorem!<code>.accordion-flush</code> </div>
+      </div>
+    </div>
+    <div class="accordion-item shadow p-3 mb-5 bg-body-tertiary rounded">
+      <h2 class="accordion-header">
+        <button class="accordion-button collapsed fs-3 " type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+          Digetal Marketing
+        </button>
+      </h2>
+      <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+        <div class="accordion-body"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam sapiente adipisci rem ullam aliquam voluptatibus mollitia error veritatis illo ex omnis corporis ut, architecto aut deserunt natus? Qui reprehenderit eos illum iure deserunt accusantium voluptatibus necessitatibus doloremque, veniam id sint provident aliquid corporis quis maxime iste blanditiis reiciendis? Reprehenderit, odio?<code>.accordion-flush</code> </div>
+      </div>
+    </div>
+    <div class="accordion-item shadow p-3 mb-5 bg-body-tertiary rounded ">
+      <h2 class="accordion-header">
+        <button class="accordion-button collapsed fs-3" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+          Grighice design
+        </button>
+      </h2>
+      <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+        <div class="accordion-body"> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam magni deleniti, nulla saepe unde facere nihil magnam voluptatum est ratione aliquam modi nisi minus commodi voluptate ab corporis tempora aspernatur distinctio iusto, quisquam repudiandae cum doloribus quae. Voluptates, non molestiae. Beatae vitae eos veritatis consequatur facilis dolorem necessitatibus tempora numquam.<code>.accordion-flush</code> </div>
+      </div>
+    </div>
+  </div>
+    <!-- section-3 -->
+    
+    <div class="card  mb-3 w-100" >
+      <div class="card-header my-3 text-center bg-primary fs-3 "> translate from arabic to english</div>
+      <div class="card-body  bg-secondary">
+       
+        <p class="title-2 " style="color: white;">write and translate <span style="color: black;">press here</span></p>
+        <h5 class="card-title"  >write and translate <span style="color: black;">press here</span></h5>
+         
+       <!-- Button trigger modal -->
+    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+      copy
+    </button>
+    
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="exampleModalLabel">esraabarakat-code.github.io says</h1>
+            <!-- <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button> -->
+          </div>
+          <div class="modal-body  ">
+              تم نسخ النص
+  
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-primary" data-bs-dismiss="modal">ok</button>
+            <!-- <button type="button" class="btn btn-primary">Save changes</button> -->
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="form-floating">
+      <textarea class="form-control w-75" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
+      <label for="floatingTextarea2">translat</label>
+    </div>
+        
+      </div>
+    </div>
+    <div class="card  mb-3 w-100" >
+      <div class="card-header my-3 text-center bg-primary fs-3 "> translate from arabic to english</div>
+      <div class="card-body  bg-secondary">
+       
+        <p class="title-2 " style="color: white;">write and translate <span style="color: black;">press here</span></p>
+        <h5 class="card-title"  >write and translate <span style="color: black;">press here</span></h5>
+         
+       <!-- Button trigger modal -->
+    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+      copy
+    </button>
+    
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="exampleModalLabel">esraabarakat-code.github.io says</h1>
+            <!-- <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button> -->
+          </div>
+          <div class="modal-body  ">
+              تم نسخ النص
+  
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-primary" data-bs-dismiss="modal">ok</button>
+            <!-- <button type="button" class="btn btn-primary">Save changes</button> -->
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="form-floating">
+      <textarea class="form-control w-75" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
+      <label for="floatingTextarea2">translat</label>
+    </div>
+        
+      </div>
+    </div>
+    <div class="card  mb-3 w-100" >
+      <div class="card-header my-3 text-center bg-primary fs-3 "> translate from arabic to english</div>
+      <div class="card-body  bg-secondary">
+       
+        <p class="title-2 " style="color: white;">write and translate <span style="color: black;">press here</span></p>
+        <h5 class="card-title"  >write and translate <span style="color: black;">press here</span></h5>
+         
+       <!-- Button trigger modal -->
+    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+      copy
+    </button>
+    
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="exampleModalLabel">esraabarakat-code.github.io says</h1>
+            <!-- <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button> -->
+          </div>
+          <div class="modal-body  ">
+              تم نسخ النص
+  
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-primary" data-bs-dismiss="modal">ok</button>
+            <!-- <button type="button" class="btn btn-primary">Save changes</button> -->
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="form-floating">
+      <textarea class="form-control w-75" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
+      <label for="floatingTextarea2">translat</label>
+    </div>
+        
+      </div>
+    </div>
+
+    <!-- section-5 -->
+    <div class="photo"></div>
+   <div class="col  text-center fs-1" style="background-color:rgba(16, 1, 22, 0.5) ;">
+    <div class="p-3">TOP STUDENTS</div>
+   </div>
+   
+<div class="parent-5 container  ">
+    <div class="row ">
+      <div class="card card-sec5 m-3 col-lg-4 " style="width: 20rem;height: 450px">
+          <img src="css/images/photo_13.jpg" class="card-img-top img-thumbnail "style="height: 350px;" alt="...">
+          <div class="card-body">
+            <a href="#" class="btn btn-primary float-end ">Show more </a>
+            <h5 class="card-title">STUDENT NAME</h5>
+            <p class="card-text">All thanks and appreciation </p>
+           
+          </div>
+        </div>
+        <div class="card card-sec5 m-3 col-lg-4 " style="width: 20rem;height: 450px">
+          <img src="css/images/photo_14.jpg" class="card-img-top img-thumbnail "style="height: 350px;" alt="...">
+          <div class="card-body">
+            <a href="#" class="btn btn-primary float-end"> Show more</a>
+            <h5 class="card-title"> STUDENT NAME</h5>
+            <p class="card-text">All thanks and appreciation </p>
+            
+          </div>
+        </div>
+        <div class="card card-sec5 m-3 col-lg-4" style="width: 20rem;height: 450px">
+          <img src="css/images/photo_18.jpg" class="card-img-top img-thumbnail " style="height: 350px;" alt="...">
+          <div class="card-body">
+            <a href="#" class="btn btn-primary float-end"> Show more</a>
+            <h5 class="card-title"> STUDENT NAME</h5>
+            <p class="card-text"> All thanks and appreciation</p>
+          
+          </div>
+        </div>
+        <div class="card card-sec5 m-3 col-lg-4 " style="width: 20rem;height: 450px">
+          <img src="css/images/photo_12.jpg" class="card-img-top img-thumbnail "style="height: 350px;" alt="...">
+          <div class="card-body">
+            <a href="#" class="btn btn-primary float-end">Show more </a>
+            <h5 class="card-title"> STUDENT NAME</h5>
+            <p class="card-text">All thanks and appreciation </p>
+           
+          </div>
+        </div>
+        <div class="card card-sec5 m-3 col-lg-4" style="width: 20rem;height: 450px">
+          <img src="css/images/photo15.jpg" class="card-img-top img-thumbnail "style="height: 350px;" alt="...">
+          <div class="card-body">
+            <a href="#" class="btn btn-primary float-end">Show more </a>
+            <h5 class="card-title"> STUDENT NAME</h5>
+            <p class="card-text"> All thanks and appreciation</p>
+          </div>
+        </div>
+        <div class="card card-sec5 m-3 col-lg-4" style="width: 20rem;height: 450px;">
+          <img src="css/images/photo_17.jpg" class="card-img-top img-thumbnail "style="height: 350px;" alt="...">
+          <div class="card-body">
+            <a href="#" class="btn btn-primary float-end "> Show more</a>
+            <h5 class="card-title"> STUDENT NAME</h5>
+            <p class="card-text"> All thanks and appreciation</p>
+            
+          </div>
+        </div>
+       
+        <div class="row  " style="justify-content: space-around;">
+          <div class="card card-sec5 m-3 col-lg-4  " style="width: 20rem;height: 450px">
+            <img src="css/images/photo_16.jpg" class="card-img-top img-thumbnail "style="height: 350px;" alt="...">
+            <div class="card-body">
+              <a href="#" class="btn btn-primary float-end">Show more</a>
+              <h5 class="card-title"> STUDENT NAME</h5>
+              <p class="card-text ">Allthanks and appreciation</p>
+             
+            </div>
+          </div>
+          <div class="card card-sec5 m-3 col-lg-8 " style="width: 20rem;height: 450px">
+            <img src="css/images/student.jpg" class="card-img-top img-thumbnail "style="height: 350px;" alt="...">
+            <div class="card-body">
+              <a href="#" class="btn btn-primary float-end">Show more</a>
+              <h5 class="card-title"> STUDENT NAME</h5>
+              <p class="card-text ">Allthanks and appreciation</p>
+             
+            </div>
+          </div>
+        </div>
+        
+    </div>  
+  
+</div>
+
+ <!-- THANKS FOR -->
+ <div class="photo-2"></div>
+ <div class="col  text-center fs-3 my-2" style="background-color: rgb(4, 4, 17);color: white;">
+   <div class="p-3" >THANKS FOR </div>
+   </div>
+
+<div class="dark-card d-flex flex-row coinatiner  my-5 mx-5 ">
+  <div class="row">
+    <div class="col-sm">
+      <div class="card text-bg-dark  my-2   w-75  THANKSFOR col-lg-4 col-sm">
+        <img src="css/images/photo_6.jpg" class="card-img " >
+        
+        <div class="card-img-overlay col-sm  " style="background-color: rgba(0,0, 0, 0.5);">
+          <h5 class="card-title">All thanks and appreciation</h5>
+          <img src="css/images/photo_6.jpg" class="rounded-circle w-50" >
+          <p class="card-text">Leone P.xaviona</p>
+          <p class="card-text"><small>web developer</small></p>
+        </div>
+       
+      </div>
+    </div>
+    <div class="col-sm">
+      <div class="card text-bg-dark my-2   w-75 THANKSFOR col-lg-4 col-sm " >
+        <img src="css/images/photo_5.jpg " class="card-img " >
+        <div class="card-img-overlay col-sm"style="background-color: rgba(0,0, 0, 0.5);">
+          <h5 class="card-title fs-8 ">All thanks and appreciation</h5>
+          <img src="css/images/photo_5.jpg" class="rounded-circle w-50  " >
+          <p class="card-text">Miranda H.leone</p>
+          <p class="card-text"><small>Graphic Designer</small></p>
+        </div>
+      </div>
+    </div>
+    
+   
+    <div class="col-sm">
+      <div class="card text-bg-dark  my-2   w-75 THANKSFOR col-lg-4 col-sm " >
+        <img src="css/images/photo_7.jpg" class="card-img " >
+        <div class="card-img-overlay col-sm"style="background-color: rgba(0,0, 0, 0.5);">
+          <h5 class="card-title fs-8 ">All thanks and appreciation</h5>
+          <img src="css/images/photo_7.jpg" class="rounded-circle w-50  " >
+          <p class="card-text">Mark R.Ronson</p>
+          <p class="card-text"><small>Digital Marketer</small></p>
+        </div>
+      </div>
+    </div>
+   
+  </div>
+
+ </div>
+<!-- NEWS -->
+<div class="col  text-center fs-3 my-2 bg-primary" style="color: rgb(7, 3, 3); ">
+  <div class="p-3" > OUR COMMUNITY</div>
+  </div>
+<div class="container col-lg">
+  <div class="card mb-3 shadow-lg p-3 mb-5 bg-body-tertiary rounded" style="max-width: 740px;">
+    <div class="row g-0">
+      <div class="col-md-4  ">
+        <img src="css/images/photo11.jpg" class="img-fluid   rounded-start " style="height: 100%;" alt="...">
+      </div>
+      <div class="col-md-8">
+        <div class="card-body">
+          <h5 class="card-title">css3</h5>
+          <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium blanditiis saepe consequatur culpa ducimus nam perferendis harum non? Cum magni illum facilis, assumenda odio numquam, consectetur suscipit ducimus beatae laborum officiis quibusdam fugiat ratione, sunt ea ex maiores at reiciendis eligendi in?   </p>
+         
+          <button type="button" class="btn btn-primary"
+        style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;"><i class="fas fa-tag"></i>
+  podcast
+</button>
+<button type="button" class="btn btn-primary"
+        style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;"><i class="fas fa-clock"></i>
+  55mins
+</button>
+<button type="button" class="btn btn-primary Epoised3"
+
+style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;"> <i class="fas fa-play"></i>
+  play Episode
+</button>
+        </div>
+      </div>
+    </div>
+    </div>
+  
+  <div class="card mb-3 shadow-lg p-3 mb-5 bg-body-tertiary rounded" style="max-width: 740px;">
+    <div class="row g-0">
+      
+      <div class="col-md-8">
+        <div class="card-body">
+          <h5 class="card-title">Graphic Design</h5>
+          <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium blanditiis saepe consequatur culpa ducimus nam perferendis harum non? Cum magni illum facilis, assumenda odio numquam, consectetur suscipit ducimus beatae laborum officiis quibusdam fugiat ratione, sunt ea ex maiores at reiciendis eligendi in?   </p>
+
+          <button type="button" class="btn btn-primary"
+          style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;"><i class="fas fa-tag"></i>
+          podcast
+  </button>
+  <button type="button" class="btn btn-primary"
+        style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;"><i class="fas fa-clock"></i>
+  55mins
+</button>
+<button type="button" class="btn btn-primary  Epoised1"
+        style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;"> <i class="fas fa-play"></i>
+  play Epoised
+</button>
+         
+        </div>
+      </div>
+      <div class="col-md-4">
+        <img src="css/images/photo_10.jpg" class="img-fluid rounded-start" style="height: 100%;" alt="...">
+      </div>
+    </div>
+  </div>
+  <div class="card mb-3 shadow-lg p-3 mb-5 bg-body-tertiary rounded" style="max-width: 740px;">
+    <div class="row g-0">
+      <div class="col-md-4   "  >
+        <img src="css/images/photo_8.jpg" class="img-fluid   rounded-start " style="height: 100%;" alt="...">
+      </div>
+      <div class="col-md-8">
+        <div class="card-body">
+          <h5 class="card-title">java script</h5>
+          <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium blanditiis saepe consequatur culpa ducimus nam perferendis harum non? Cum magni illum facilis, assumenda odio numquam, consectetur suscipit ducimus beatae laborum officiis quibusdam fugiat ratione, sunt ea ex maiores at reiciendis eligendi in?   </p>
+
+          <button type="button" class="btn btn-primary"
+          style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;"><i class="fas fa-tag"></i>
+          podcast
+  </button>
+  <button type="button" class="btn btn-primary"
+        style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;"><i class="fas fa-clock"></i>
+  55mins
+</button>
+<button type="button" class="btn btn-primary Epoised2 "
+        style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;"> <i class="fas fa-play"></i>
+  play Epoised
+</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="card mb-3 shadow-lg p-3 mb-5 bg-body-tertiary rounded" style="max-width: 740px;">
+    <div class="row g-0">
+      
+      <div class="col-md-8" >
+        <div class="card-body">
+          <h5 class="card-title">python</h5>
+          <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium blanditiis saepe consequatur culpa ducimus nam perferendis harum non? Cum magni illum facilis, assumenda odio numquam, consectetur suscipit ducimus beatae laborum officiis quibusdam fugiat ratione, sunt ea ex maiores at reiciendis eligendi in?   </p>
+
+          <button type="button" class="btn btn-primary"
+          style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;"><i class="fas fa-tag"></i>
+    podcast
+  </button>
+  <button type="button" class="btn btn-primary"
+        style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;"><i class="fas fa-clock"></i>
+  55mins
+</button>
+<button type="button" class="btn btn-primary Epoised3 "
+        style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;"><i class="fas fa-play"></i>
+  play Epoised
+</button>
+         
+        </div>
+      </div>
+      <div class="col-md-4">
+        <img src="css/images/photo_9.jpg" class="img-fluid rounded-start"  style="height: 100%;" alt="...">
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- JOIN US -->
+<!-- section join -->
+<div class="col   text-center fs-1" style="background-color: rgba(16, 1, 22, 0.5);">
+    <div class="p-3">JOIN US</div>
+   </div>
+<div class=" container text-center row m-5  ">
+  <div class="col-sm">
+    <div class="card shadow-lg p-3 mb-2 bg-body-tertiary rounded me-2" style="width: 14rem;">
+      <div class="card-body">
+        <h5 class="card-title"> follow us</h5>
+        
+        <img src="css/images/tel.jpg" class="rounded mx-auto d-block"  style="width:90px;">
+        <a href="#" class="card-link">go to link</a>
+       
+      </div>
+    </div>
+  </div>
+   
+    <div class="col-sm">
+      <div class="card shadow-lg p-3 mb-5 bg-body-tertiary rounded me-2 " style="width: 14rem;">
+        <div class="card-body">
+          <h5 class="card-title">follow us</h5>
+          
+          <img src="css/images/whattsup.jpg" class="rounded mx-auto d-block"  style="width: 90px;">
+          <a href="#" class="card-link">go to link</a>
+         
+        </div>
+      </div>
+    </div>
+    
+    <div class="col-sm">
+      <div class="card shadow-lg p-3 mb-5 bg-body-tertiary rounded me-2 " style="width: 14rem;">
+        <div class="card-body">
+          <h5 class="card-title">follow us</h5>
+          
+          <img src="css/images/tewtter.jpg" class="rounded mx-auto d-block"  style="width: 90px;">
+          <a href="#" class="card-link">go to link</a>
+         
+        </div>
+      </div>
+    </div>
+    
+    <div class="col-sm">
+      <div class="card shadow-lg p-3 mb-5 bg-body-tertiary rounded  me-2" style="width: 14rem;">
+        <div class="card-body">
+          <h5 class="card-title">follow us</h5>
+          
+          <img src="css/images/inasta.jpg" class="rounded mx-auto d-block"  style="width: 90px;">
+          <a href="#" class="card-link">go to link</a>
+         
+        </div>
+      </div>
+    </div>
+   
+  </div>
+  <!-- footer -->
+  <div class="footer pt-5 pb-5 text-white-50 text-center text-md-start">
+    <div class="cointainer">
+      <div class="row">
+        <div class="col-md-6 col-lg-4">
+          <div class="infos text-center ">
+            <hr>
+            <img src="css/images/client-1.png" alt="" class="mb-4" style="width: 100PX;"><span class="fs-3" >MYOB</span>
+            <hr>
+            <p class="mb-4 px-3">Tel:000-000-000</p>
+            <p class="mb-4 px-3">adress:EGYPT</p>
+            <p class="mb-4 px-3">Fax:000-000-000 </p>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="infos text-center">
+            <hr>
+            <img src="css/images/client-1.png"  class="mb-4" style="width: 100PX;" ><span class="fs-3">important links</span>
+            <hr>
+            <p class="mb-4 px-3">visit us </p>
+            <p class="mb-4 px-3">Take alook</p>
+            <p class="mb-4 px-3">your health is more important </p>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="infos text-center">
+            <hr>
+            <img src="css/images/client-1.png" alt="" class="mb-4" style="width: 100PX;"><span class="fs-3" >vision</span>
+            <hr>
+            <p class="mb-4 px-3">services for all</p>
+            <p class="mb-4 px-3">provide best services  </p>
+            <p class="mb-4 px-3">you wii be better than before </p>
+          </div>
+        </div>
+        <hr>
+        <div class=" col-lg text-center">
+          <div class="infos">
+            COPYRIGHT&COPY;2023 ESRAA BARAKAT MYOB COMPANY ALL RIGHTS.
+           <hr>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>
